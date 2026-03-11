@@ -1,0 +1,9 @@
+name: Revisao de Escrita
+on: [push]
+jobs:
+  prose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: check writing
+        uses: btford/write-good-action@v2
