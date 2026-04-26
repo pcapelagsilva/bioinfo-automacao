@@ -1,0 +1,11 @@
+# Ficheiros auxiliares do LaTeX
+*.aux
+*.log
+*.toc
+*.out
+*.fdb_latexmk
+*.fls
+
+# Binários e ficheiros de sistema
+.DS_Store
+__pycache__/
